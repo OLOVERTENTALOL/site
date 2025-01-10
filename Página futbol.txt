@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web interactiva para enseñar a niños a jugar fútbol, con recursos didácticos y ejercicios prácticos">
+    <meta name="keywords" content="fútbol, iniciación, niños, aprender, deportes">
+    <meta name="author" content="Tu Nombre">
+    <title>Iniciación al Fútbol para Niños</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #264653;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x600/?soccer,kids') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            font-size: 2.5em;
+            text-align: center;
+            padding: 20px;
+        }
+        .content {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #264653;
+            border-bottom: 2px solid #2a9d8f;
+            padding-bottom: 5px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .resources, .games {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            color: #264653;
+            margin: 15px 0;
+        }
+        .card p {
+            padding: 0 15px;
+            font-size: 0.9em;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #2a9d8f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Iniciación al Fútbol para Niños</h1>
+        <p>Aprende y diviértete jugando el deporte más popular del mundo</p>
+    </header>
+    <nav>
+        <a href="#que-es-el-futbol">¿Qué es el fútbol?</a>
+        <a href="#ejercicios-basicos">Ejercicios Básicos</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#juegos">Juegos</a>
+    </nav>
+    <section class="hero">
+                    <div class="games">
+                <div class="card">
+                    <img src="CLLG.jpg">
+                </div>
+                <div class="card">
+                    <iframe src="https://es.educaplay.com/recursos-educativos/21950531-futbolito.html"></iframe>
+                </div>
+	    </div>
+    </section>
+    <div class="content">
+        <section id="que-es-el-futbol" class="section">
+            <h2>¿Qué es el fútbol?</h2>
+            <p>El fútbol es un deporte en equipo que fomenta la cooperación, el trabajo en equipo, y la coordinación motriz. Jugar fútbol no solo mejora la salud física, sino que también enseña valores como la disciplina y la perseverancia.</p>
+        </section>
+        <section id="ejercicios-basicos" class="section">
+            <h2>Ejercicios Básicos</h2>
+            <p>Aquí te dejamos algunos ejercicios que puedes practicar para mejorar tus habilidades:</p>
+            <ul>
+                <li><strong>Dribbling:</strong> Practica llevar el balón entre conos sin perder el control, practica 1v1 con algún compañero en espacios reducidos, realiza carreras cortas con cambio de direción con balón y sin balón.</li>
+                <li><strong>Pases:</strong> Realiza pases cortos y largos con un compañero o contra una pared, así como ir perfeccionando las recepciones de balónes largos y cortos.</li>
+                <li><strong>Tiros:</strong> Intenta marcar goles desde diferentes distancias y ángulos; también puedes intentar tiros en carrera, tiros con el balón en movimiento y juntar todo lo anterior con objetivos dentro de la portería.</li>
+                <li><strong>Defensa:</strong> Aprende a robar el balón sin cometer faltas, analiza los partidos profesionales para ver como cortan las lineas de pase, practica 1v1 y 2v1 (2 atacantes) defensivo en espacios cortos y largos para aprender y familiarizarte con los recorridos defensivos. </li>
+            </ul>
+        </section>
+        <section id="recursos" class="section">
+            <h2>Recursos</h2>
+            <div class="resources">
+                <div class="card">
+                    <video width="640" height="360" controls>
+			  <source src="Bienvenidos.mp4" type="video/mp4">
+		    </video>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.youtube.com/watch?v=xi1KWP0_-P8" title="Video 1"></iframe>
+                    <h3>Video: Técnicas Básicas</h3>
+                    <p>Descubre las técnicas esenciales para comenzar a jugar fútbol.</p>
+                </div>
+                <div class="card">
+                    <iframe src="FRD.pdf" width="100%" height="600px"></iframe>
+                        
+                    <h3>Factores que influyen en el rendimiento deportivo</h3>
+                    <p>Lee el archivo para saber cómo potenciar tu rendimiento deportivo</p>
+                </div>
+            </div>
+        </section>
+        <section id="juegos" class="section">
+            <h2>Juegos</h2>
+            <p>Interactúa con los siguientes juegos para aprender mientras te diviertes:</p>
+            <div class="games">
+                <div class="card">
+                    <iframe src="https://puzzel.org/es/wordseeker/play?p=-OFZHtO1Lvebrr2G57uP" title="Juego 1"></iframe>
+                    <h3>Juego 1</h3>
+                </div>
+                <div class="card">
+                    <iframe src="https://puzzel.org/es/crossword/play?p=-OFZFlFGxwkXHXp3HKz5"Juego 2"></iframe>
+                    <h3>Juego 2</h3>
+                    <p>Desafía tu precisión con este divertido reto de tiros al arco.</p>
+                </div>
+	    </div>
+            <div class>
+                <div class="card">
+                    <iframe src="https://puzzel.org/es/hangman/play?p=-OG7raDzJzRGSHOWEZLM" title="Juego 3"></iframe>
+                    <h3>Juego 1</h3>
+                </div>
+	    </div>
+            <div class>
+                <div class="card">
+                    <iframe src="https://kahoot.it/challenge/?quiz-id=e3488248-f9ba-44be-bb28-78eec08a3a00&single-player=true"Juego 4"></iframe>
+                    <h3>Juego 2</h3>
+                    <p>Desafía tu precisión con este divertido reto de tiros al arco.</p>
+                </div>
+	    </div>
+<section id="conclusiones" style="padding: 30px; background-color: #eef4ff; text-align: center;">
+  <h2 style="color: #004aad; font-size: 28px;">Conclusiones</h2>
+  <p style="font-size: 18px; color: #333; max-width: 800px; margin: 20px auto; line-height: 1.6;">
+    El fútbol es mucho más que un deporte: es una escuela de vida. A través de cada pase, gol y entrenamiento, 
+    los niños no solo desarrollan habilidades físicas, sino también valores esenciales como el trabajo en equipo, 
+    la disciplina, la perseverancia y el respeto por los demás. 
+  </p>
+  <p style="font-size: 18px; color: #333; max-width: 800px; margin: 20px auto; line-height: 1.6;">
+    A lo largo de esta experiencia, hemos aprendido que el camino hacia el éxito no se mide únicamente por los resultados en el marcador, 
+    sino por la pasión y dedicación que ponemos en cada momento. Cada niño tiene un potencial único, y nuestro objetivo es guiarlo para que brille tanto en el campo como en su vida cotidiana.
+  </p>
+  <p style="font-size: 18px; color: #333; max-width: 800px; margin: 20px auto; line-height: 1.6;">
+    Nos enorgullece ser parte de este viaje, ayudando a formar no solo mejores jugadores, sino también mejores personas. Creemos que, con esfuerzo y compromiso, 
+    los pequeños pasos de hoy se convertirán en grandes logros en el futuro.
+  </p>
+  <p style="font-size: 18px; color: #333; max-width: 800px; margin: 20px auto; line-height: 1.6;">
+    Gracias por confiar en nosotros como tu compañero en este aprendizaje. Estamos emocionados de continuar apoyándote mientras sigues creciendo y alcanzando tus metas. 
+    Recuerda, el verdadero éxito radica en nunca dejar de intentarlo y disfrutar cada paso del camino.
+  </p>
+</section>
+<section id="contacto" style="padding: 20px; background-color: #f9f9f9;">
+  <h2>Contáctanos</h2>
+  <p>Si tienes alguna duda o consulta, llena el formulario a continuación y nos pondremos en contacto contigo.</p>
+  <form action="procesar_formulario.php" method="post" style="max-width: 500px; margin: 0 auto;">
+    <label for="nombre" style="display: block; margin-bottom: 5px;">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+
+    <label for="email" style="display: block; margin-bottom: 5px;">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+
+    <label for="telefono" style="display: block; margin-bottom: 5px;">Número de Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+
+    <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Enviar</button>
+  </form>
+</section>
+</body>
+</html>
